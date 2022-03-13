@@ -130,7 +130,6 @@ const CreateProduct = (props) => {
                                 <h6 className="m-0 font-weight-bold text-primary">Variants</h6>
                             </div>
                             <div className="card-body">
-
                                 {
                                     productVariants.map((element, index) => {
                                         return (
@@ -214,7 +213,6 @@ const CreateProduct = (props) => {
                         </div>
                     </div>
                 </div>
-
                 <button type="button" onClick={saveProduct} className="btn btn-lg btn-primary">Save</button>
                 <button type="button" className="btn btn-secondary btn-lg">Cancel</button>
             </section>
